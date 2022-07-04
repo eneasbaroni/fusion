@@ -1,0 +1,17 @@
+#header {
+  background-color: var(--main-bg);
+  align-content: center;
+  height: 5rem;
+}
+
+.navItem {
+  margin: 0 1rem;
+}
+
+.active {
+  color: var(--third-color) !important;
+}
+
+.navbar {
+  
+}
