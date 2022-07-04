@@ -13,7 +13,8 @@ const Header = () => {
   useEffect(() => {
     const handleResize = () => {
       setWindowSize(window.innerWidth)  
-      setNavbarOpen(false)    
+      setNavbarOpen(false)   
+      setOpacity(1)
     }
     window.addEventListener("resize", handleResize);
     handleResize();  
